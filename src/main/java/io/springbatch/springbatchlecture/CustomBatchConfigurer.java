@@ -31,5 +31,6 @@ public class CustomBatchConfigurer extends BasicBatchConfigurer {
         jobRepositoryFactoryBean.setTablePrefix("SYSTEM_");
 
         return jobRepositoryFactoryBean.getObject();
+
     }
 }
